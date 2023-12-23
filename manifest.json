@@ -1,0 +1,10 @@
+{
+  "name": "Google Home Now Playing",
+  "short_name": "Now Playing",
+  "description": "Control your Google Home music playback and speaker settings from a web browser.",
+  "start_url": "index.html",
+  "offline_access": "true",
+  "background": {
+    "service_worker_unregister": true
+  }
+}

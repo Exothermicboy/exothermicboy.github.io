@@ -1,0 +1,88 @@
+/* Main container */
+#now-playing-container {
+  background-color: #3c3c3c;
+  color: #fff;
+  margin: 0;
+  padding: 30px;
+}
+
+/* Song information section */
+#song-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#song-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#artist {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#album-art {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+/* Playback controls */
+#playback-controls {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+#progress-bar {
+  width: 200px;
+  height: 20px;
+  background-color: #282828;
+  border: 1px solid #fff;
+  margin-top: 20px;
+}
+
+#progress {
+  width: 0%;
+  height: 100%;
+  background-color: #35db3b;
+  border-radius: 50%;
+}
+
+#play-pause {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #35db3b;
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+}
+
+#skip-forward, #skip-back {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #282828;
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+}
+
+#volume-slider {
+  width: 200px;
+  height: 20px;
+  background-color: #282828;
+  border: 1px solid #fff;
+}
+
+/* Volume slider thumb */
+.volume-slider-thumb {
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
